@@ -13,6 +13,7 @@ def load_library(file)
       emotes_hash["get_meaning"][element2] = item
     end
   end
+  emotes_hash
 end
 
 def get_japanese_emoticon
