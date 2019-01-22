@@ -8,7 +8,7 @@ def load_library(file)
   }
   
   emotes.each_with_index do |item, index|
-    puts emotes
+    puts item
     puts emotes[index]
   end
 end
