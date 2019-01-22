@@ -6,8 +6,9 @@ def load_library(file)
   emotes_hash = { "get_meaning" => {},
                   "get_emoticon" => {}
   }
-  emotes.each do |info|
-    puts info
+  index = 0
+  while index < emotes.length 
+    puts emotes
   end
 end
 
