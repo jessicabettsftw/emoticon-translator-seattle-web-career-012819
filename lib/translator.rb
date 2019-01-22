@@ -23,7 +23,7 @@ def get_japanese_emoticon(file, emoticon)
      japanese_emote = hash["get_emoticon"][emoticon]
      return japanese_emote
   else
-    puts "Sorry, that emoticon was not found"
+    return "Sorry, that emoticon was not found"
   end
 end
 
