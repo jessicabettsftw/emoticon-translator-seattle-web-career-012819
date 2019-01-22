@@ -10,7 +10,7 @@ def load_library(file)
   emotes.each do |item|
     item.each do |element1, element2|
       puts element1
-      puts "."
+      puts element2
     end
   end
 end
