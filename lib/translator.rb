@@ -7,7 +7,7 @@ def load_library(file)
                   "get_emoticon" => {}
   }
   index = 0
-  while index < emotes.length 
+  emotes.each_with_index do |
     puts emotes
   end
 end
