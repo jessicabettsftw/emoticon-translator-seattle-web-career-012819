@@ -22,7 +22,8 @@ def get_japanese_emoticon(file, emoticon)
   if (hash["get_emoticon"].key?(emoticon)) == true
      japanese_emote = hash["get_emoticon"][emoticon]
      return japanese_emote
-  end
+  else
+    puts "unknown emoticon"
 end
 
 def get_english_meaning
