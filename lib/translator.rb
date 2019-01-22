@@ -27,6 +27,12 @@ def get_japanese_emoticon(file, emoticon)
   end
 end
 
-def get_english_meaning
-  # code goes here
+def get_english_meaning(file, emoticon)
+  hash = load_library(file)
+  if (hash["get_emoticon"].key?(emoticon)) == true
+     japanese_emote = hash["get_emoticon"][emoticon]
+     return japanese_emote
+  else
+    return "Sorry, that emoticon was not found"
+  end
 end
