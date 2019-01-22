@@ -11,6 +11,7 @@ def load_library(file)
     item.each do |element|
       puts element
       puts "."
+    end
   end
 end
 
