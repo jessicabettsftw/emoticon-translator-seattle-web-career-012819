@@ -7,7 +7,7 @@ def load_library(file)
                   "get_emoticon" => {}
   }
   emotes.each do |info|
-    puts
+    puts info
   end
 end
 
