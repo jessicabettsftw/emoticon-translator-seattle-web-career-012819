@@ -18,7 +18,7 @@ end
 
 def get_japanese_emoticon(file, emoticon)
   
-  hash = load_file(file)
+  hash = load_library(file)
   if (hash["get_meaning"].key?(emoticon)) == true
     puts hash["get_meaning"][emoticon]
   end
