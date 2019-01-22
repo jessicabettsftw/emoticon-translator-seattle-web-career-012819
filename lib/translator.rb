@@ -8,6 +8,7 @@ def load_library(file)
   }
   
   emotes.each do |item|
+    emotes_hash["get_emoticon"][item]
     item.each do |element1, element2|
     end
   end
