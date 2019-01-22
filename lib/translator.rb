@@ -7,9 +7,10 @@ def load_library(file)
                   "get_emoticon" => {}
   }
   
-  emotes.each_with_index do |item, index|
-    puts item
-    puts item[2]
+  emotes.each do |item|
+    item.each do |element|
+      puts element
+      puts "."
   end
 end
 
