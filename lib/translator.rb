@@ -6,7 +6,9 @@ def load_library(file)
   emotes_hash = { "get_meaning" => {},
                   "get_emoticon" => {}
   }
-  emo
+  emotes.each do |info|
+    puts
+  end
 end
 
 def get_japanese_emoticon
