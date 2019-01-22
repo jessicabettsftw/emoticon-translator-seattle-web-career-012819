@@ -29,9 +29,9 @@ end
 
 def get_english_meaning(file, emoticon)
   hash = load_library(file)
-  if (hash["get_emoticon"].key?(emoticon)) == true
-     japanese_emote = hash["get_emoticon"][emoticon]
-     return japanese_emote
+  if (hash["get_meaning"].key?(emoticon)) == true
+     meaning = hash["get_meaning"][emoticon]
+     return meaning
   else
     return "Sorry, that emoticon was not found"
   end
